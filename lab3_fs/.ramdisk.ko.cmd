@@ -1,0 +1,1 @@
+cmd_/home/oslab/DKU_OS_LAB/lab3_fs/ramdisk.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/oslab/DKU_OS_LAB/lab3_fs/ramdisk.ko /home/oslab/DKU_OS_LAB/lab3_fs/ramdisk.o /home/oslab/DKU_OS_LAB/lab3_fs/ramdisk.mod.o ;  true
